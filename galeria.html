@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Galería de Imágenes</h1>
+    </header>
+
+    <section class="galeria">
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\imagen 1.jpg" alt="Imagen 1">
+        </div>
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\imagen 2.webp" alt="Imagen 2">
+        </div>
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\imagen 3.jpeg" alt="Imagen 3">
+        </div>
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\Imagen 4.jpg" alt="Imagen 4">
+        </div>
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\imagen 5.avif" alt="Imagen 5">
+        </div>
+        <div class="imagen" onclick="mostrarImagen(this)">
+            <img src="C:\Users\usuariocc10\Desktop\Proecto_JS\imagen 6.jpg" alt="Imagen 6">
+        </div>
+    </section>
+
+    <!-- Ventana Modal para ver la imagen en tamaño completo -->
+    <div id="modal" class="modal" onclick="cerrarModal()">
+        <img id="imagen-modal" class="modal-imagen" src="" alt="Imagen en grande">
+    </div>
+
+    <script src="interactividad.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* Estilo general para la página */
+body {
+    background-color: #ADD8E6; /* Fondo azul claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #003366; /* Azul oscuro */
+}
+
+/* Estilo para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #003366;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Imagen de portada */
+#portada-img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para la lista de integrantes */
+ul {
+    text-align: center;
+    font-size: 18px;
+    color: #003366;
+}
+
+/* Marquee */
+marquee {
+    font-size: 20px;
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+}
+
+/* Estilo para el botón interactivo */
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00509e;
+}

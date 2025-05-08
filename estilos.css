@@ -1,0 +1,75 @@
+/* Estilo general de la página */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Título principal */
+header h1 {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Estilo de la galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.imagen {
+    border: 5px solid #003366; /* Marco azul rey */
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Efecto de hover sobre las imágenes */
+.imagen:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo de la ventana modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-imagen {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .galeria {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .galeria {
+        grid-template-columns: 1fr;
+    }
+}
