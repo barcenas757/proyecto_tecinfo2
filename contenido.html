@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live con expertos: Agua, salud y planeta</title>
+    <link rel="stylesheet" href="contenido.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="main-title">💧 Live con expertos: Agua, salud y planeta 🌍</h1>
+            <p class="subtitle">¡Diálogos accesibles para todos, tus preguntas en vivo!</p>
+        </header>
+
+        <section class="event-details">
+            <div class="card glassmorphism">
+                <h2 class="card-title">🚀 ¡Conéctate con el futuro!</h2>
+                <p class="card-description">Únete a nuestros expertos en diálogos esenciales sobre los pilares de nuestro bienestar: el agua, nuestra salud y el futuro del planeta. ¡Un espacio abierto para aprender y participar!</p>
+                <div class="platform-icons">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="Instagram Live" class="icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="YouTube Live" class="icon">
+                </div>
+            </div>
+
+            <div class="card glassmorphism">
+                <h2 class="card-title">📅 Próximo Evento</h2>
+                <div class="event-info">
+                    <p><strong>Fecha:</strong> <span id="event-date">¡Pronto anunciaremos la fecha!</span></p>
+                    <p><strong>Hora:</strong> <span id="event-time">¡Mantente atento!</span></p>
+                </div>
+                <button class="btn btn-primary" id="remind-me-btn">Recordarme este evento</button>
+                <p class="reminder-message" id="reminder-message"></p>
+            </div>
+
+            <div class="card glassmorphism">
+                <h2 class="card-title">🎤 Nuestros Expertos</h2>
+                <div class="expert-grid">
+                    <div class="expert-profile">
+                        <img src="https://via.placeholder.com/100/ADD8E6/FFFFFF?text=Experto+1" alt="Experto 1" class="expert-avatar">
+                        <h3 class="expert-name">Dr. Aqua Vital</h3>
+                        <p class="expert-bio">Especialista en hidrología sostenible y calidad del agua.</p>
+                    </div>
+                    <div class="expert-profile">
+                        <img src="https://via.placeholder.com/100/87CEEB/FFFFFF?text=Experta+2" alt="Experta 2" class="expert-avatar">
+                        <h3 class="expert-name">Dra. Sana Vida</h3>
+                        <p class="expert-bio">Médica con enfoque en salud pública y bienestar integral.</p>
+                    </div>
+                    <div class="expert-profile">
+                        <img src="https://via.placeholder.com/100/6495ED/FFFFFF?text=Experto+3" alt="Experto 3" class="expert-avatar">
+                        <h3 class="expert-name">Biól. Eco Futuro</h3>
+                        <p class="expert-bio">Activista ambiental y experto en ecosistemas planetarios.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="card glassmorphism">
+                <h2 class="card-title">❓ ¿Tienes preguntas?</h2>
+                <p class="card-description">Envíanos tus preguntas de antemano o prepárate para interactuar en vivo.</p>
+                <button class="btn btn-secondary" id="send-question-btn">Enviar Pregunta</button>
+            </div>
+
+            <div class="card glassmorphism">
+                <h2 class="card-title">🚀 ¡Únete al Live!</h2>
+                <p class="card-description">Cuando estemos en vivo, haz clic en el botón para acceder a la transmisión.</p>
+                <button class="btn btn-live" id="go-live-btn" disabled>IR AL LIVE AHORA</button>
+                <div class="live-countdown" id="live-countdown"></div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2025 Live con expertos. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="contenido.js"></script>
+</body>
+</html>
